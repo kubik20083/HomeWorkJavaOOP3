@@ -18,22 +18,5 @@ public class StreamComparator implements Comparable<StreamComparator> {
     @Override
     public String toString() {
         return "\n" + "[Группа = " + nameGroup + ", Количество студентов = " + studentNum + "]";
-    }
-
-    
-
-/*     @Override
-    public String toString() {
-        return "\n" + 
-                "Название группы " + nameGroup + ' ' +
-                "Количество студентов " + studentNum;
-                
-    } */
-
-/*     public String toString1() {
-        return "StudentGroup: " +
-                "Название группы " + nameGroup + ' ' +
-                "Количество студентов " + studentNum +
-                ' ';
-    } */
+    } 
 }
